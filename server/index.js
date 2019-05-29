@@ -1,5 +1,5 @@
-var express = require('express');
-var mustacheExpress = require('mustache-express');
+var express = require('./node_modules/express');
+var mustacheExpress = require('./node_modules/mustache-express');
 var path = require('path');
 
 var app = express();
@@ -7,7 +7,7 @@ var app = express();
 // Middleware
 app.engine('html', mustacheExpress());
 app.set('view engine', 'mustache');
-app.use('/public', express.static('public'));
+app.use('/src', express.static('src'));
 
 // Routes
 app.get('/', function (req, res) {

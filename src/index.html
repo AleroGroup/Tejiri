@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--Material design hosted-->
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<!------------ X ------------>
+
+<link rel="stylesheet" href="./sass/main.css">
+<title>Tejiri | Homepage</title>
+</head>
+<header>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="./index.html" class="navbar-item">
+            <img src="./img/logo@2x.png" class="logo"></a>
+
+            <a role="button" class="navbar-burger burger" aria-label="manu" aria-expanded="false" data-target="navbarmenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarmenu" class="navbar-menu">
+            <div class="navbar middle">
+                <a class="navbar-item is-active">Home</a>
+                <a class="navbar-item">Work</a>
+                <a class="navbar-item">About</a>
+                <a class="navbar-item">Contact</a>
+                <a class="navbar-item">Services</a>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/index.min.js"></script>
+<div id="app">
+
+<!-- Displaying the images-->
+<div class="container">
+<div class="menu">
+     <div class="columns">
+         <div class="column">
+             <h2>This is where the nav menu goes</h2>
+         </div>
+     </div>
+</div>
+<div class="image-pattern">
+    <div class="row">
+    <div class="column">
+        <div class="square size3 image1"> <img
+                src="">
+        </div>
+        <div class="square size2"> Image </div>
+        <div class="square size1 "> Image </div>
+        <div class="square size3"> Image </div>
+    </div>
+      <div class="column">
+          <div class="square size2"> Image </div>
+          <div class="square size3"> Image </div>
+          <div class="square size1 "> Image </div>
+          <div class="square size4"> Image </div>
+          <div class="square size2"> Image </div>
+      </div>
+    <div class="column">
+        <div class="square size3"> Image </div>
+         <div class="square size3"> Image </div>
+         <div class="square size1 "> Image </div>
+         <div class="square size3"> Image </div>
+    </div>
+        
+        
+    </div>
+    
+    
+</div>
+</div>
+</div>
+</div>
+
+<div class="div">
+    <div class="modal">
+
+    </div>
+</div>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+    // Get the target from the "data-target" attribute
+    const target = el.dataset.target;
+    const $target = document.getElementById(target);
+
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    el.classList.toggle('is-active');
+    $target.classList.toggle('is-active');
+
+    });
+    });
+    }
+
+    });
+
+const app = new Vue ({
+    el:'#app'
+});
+</script>
+
+
+</body>
+</html>
