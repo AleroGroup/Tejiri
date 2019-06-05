@@ -1,18 +1,20 @@
 {
-  "name": "client",
+  "name": "Tejiri",
   "version": "1.0.0",
-  "description": "client side",
+  "description": "This is the project for Tejiri ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -e js,css,html server/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alero",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alerlo/Tejiri.git"
+  },
+  "keywords": [],
+  "author": "stephaniekirathe",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.14.1",
-    "mustache-express": "^1.2.4",
-    "nodemon": "^1.11.0",
-    "path": "^0.12.7"
-  }
+  "bugs": {
+    "url": "https://github.com/alerlo/Tejiri/issues"
+  },
+  "homepage": "https://github.com/alerlo/Tejiri#readme"
 }
