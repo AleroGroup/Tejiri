@@ -1,4 +1,4 @@
-// eslint-disable-next-line prettier/prettier
+/* // eslint-disable-next-line prettier/prettier
 import axios from 'axios';
 
 const url = "api/images/";
@@ -24,3 +24,4 @@ class GetService {
 }
 
 export default GetService;
+ */

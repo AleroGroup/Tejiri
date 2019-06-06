@@ -21,9 +21,9 @@
 </div>
 </template>
 
-<script>
+ <script>
 
-import GetService from '../GetService';
+/*import GetService from '../GetService';
    export default {
       name: 'cons',
       data(){
@@ -39,8 +39,8 @@ import GetService from '../GetService';
             this.error = err.message;
          }
       }
-   }
-</script>
+   }*/
+</script> 
 
 <style scoped>
    #is-center, .content {
