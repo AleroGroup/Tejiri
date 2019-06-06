@@ -1,7 +1,7 @@
 node_modules
-vscode
-DS_Store
+.vscode
+.DS_Store
 
 
-
+# ignore all logs
 *.log
