@@ -1,0 +1,57 @@
+[2019-06-06 01:49:26,711] INFO org.github.dragos.vscode.Main$ - Starting server in /Users/stephaniekirathe/Documents/Tejiri/Tejiri
+[2019-06-06 01:49:26,711] INFO org.github.dragos.vscode.Main$ - Starting server in /Users/stephaniekirathe/Documents/Tejiri/Tejiri
+[2019-06-06 01:49:26,718] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/stephaniekirathe/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-06-06 01:49:26,718] INFO org.github.dragos.vscode.Main$ - Classpath: /Users/stephaniekirathe/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-06-06 01:49:26,836] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1223
+[2019-06-06 01:49:26,836] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1223
+[2019-06-06 01:49:26,847] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":12317,"rootPath":"/Users/stephaniekirathe/Documents/Tejiri/Tejiri","rootUri":"file:///Users/stephaniekirathe/Documents/Tejiri/Tejiri","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2019-06-06 01:49:26,847] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":12317,"rootPath":"/Users/stephaniekirathe/Documents/Tejiri/Tejiri","rootUri":"file:///Users/stephaniekirathe/Documents/Tejiri/Tejiri","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2019-06-06 01:49:27,175] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 12317, /Users/stephaniekirathe/Documents/Tejiri/Tejiri, ClientCapabilities()
+[2019-06-06 01:49:27,175] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 12317, /Users/stephaniekirathe/Documents/Tejiri/Tejiri, ClientCapabilities()
+[2019-06-06 01:49:27,177] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Users/stephaniekirathe/Documents/Tejiri/Tejiri/.ensime" 
+[2019-06-06 01:49:27,177] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/Users/stephaniekirathe/Documents/Tejiri/Tejiri/.ensime" 
+[2019-06-06 01:49:27,524] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+[2019-06-06 01:49:27,632] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /Users/stephaniekirathe/Documents/Tejiri/Tejiri/.ensime
+[2019-06-06 01:49:27,632] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /Users/stephaniekirathe/Documents/Tejiri/Tejiri/.ensime
+[2019-06-06 01:49:27,680] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-06-06 01:49:27,680] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-06-06 01:49:27,680] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-06-06 01:49:27,680] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-06-06 01:49:27,728] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-06-06 01:49:27,728] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-06-06 01:49:27,728] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-06-06 01:49:27,728] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-06-06 01:49:28,116] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2019-06-06 01:49:28,116] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2019-06-06 01:49:28,116] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2019-06-06 01:49:28,116] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2019-06-06 01:49:28,125] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2019-06-06 01:49:28,125] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2019-06-06 01:51:23,001] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-06-06 01:51:23,001] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-06-06 01:51:23,002] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-06-06 01:51:23,002] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-06-06 01:51:23,002] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2019-06-06 01:51:23,002] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2019-06-06 01:51:23,054] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
+[2019-06-06 01:51:23,054] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
