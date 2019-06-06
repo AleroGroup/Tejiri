@@ -21,4 +21,4 @@ Developed by [alero]under MIT licence.
 # Credits
 
 This gallery uses [Photoswipe](http://photoswipe.com/)
-and [Natural-gallery] (https://ecodev.github.io/natural-gallery-js/)
+and [Natural-gallery](https://ecodev.github.io/natural-gallery-js/)
