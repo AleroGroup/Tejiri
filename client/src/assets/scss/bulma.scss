@@ -1,12 +1,43 @@
-@import "../../../node_modules/bulma/css/bulma.css";
+@charset "utf-8";
+
+/* This sisthe main cess for the Tejiri */
 
 
-html,
-body
- {
-    box-sizing: border-box;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
+$font-Monserrat: 'Montserrat', sans-serif;
+$font-Ariel: 'Arial', sans-serif;
+
+/* Global colours */
+$deeporange: #ff3b00;
+$blue: #2fe1fc;
+$gray: #333333; 
+
+/* Tones orange */
+$orange-dark: #ff6c40;
+$orange-medium: #ff9d80;
+$orange-light: #ffcebf;
+
+
+/* Update Bulma's global variables */
+$family-sans-serif: $font-Monserrat;
+$grey-dark: $orange-dark;
+$grey-light: $orange-light;
+$primary: $gray;
+$link: #808080;
+
+/* Update some of Bulma's component variables */
+$control-border-width: 2px;
+$input-background-color: $blue;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+/* bullma imports */
+@import '../../../node_modules/bulma/bulma.sass';
+
+html, body{
+box-sizing: border-box;
+height: 100vh;
+width: 100vw;
+margin: 0;
 }
 

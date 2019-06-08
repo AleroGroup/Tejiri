@@ -1,15 +1,7 @@
 <template>
     
 <footer>
-    <div id="main">
-  <figure class="image is-128x128 alero-logo">
-           <img src="https://res.cloudinary.com/drsayrtmp/image/upload/v1559765758/Logos/logo-05.png" alt=""> 
-</figure>
-
-<div class="alero">
-   <p> <strong>&copy 2019</strong> This website is property of Alero group </p> 
-</div>
-   </div>
+   
 </footer>
 
 </template>
