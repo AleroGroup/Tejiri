@@ -1,7 +1,7 @@
-/* // eslint-disable-next-line prettier/prettier
+// eslint-disable-next-line prettier/prettier
 import axios from 'axios';
 
-const url = "api/images/";
+const url = "http://localhost:5000/api/images/";
 
 class GetService {
   //Getting the images
@@ -24,4 +24,3 @@ class GetService {
 }
 
 export default GetService;
- */

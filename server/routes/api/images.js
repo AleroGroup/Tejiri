@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
 //collections
 
 async function loadImageCollection() {
-    const url = 'mongodb://alero:T1Yz2low75lRKCKW@cluster0-shard-00-00-lc4j1.mongodb.net:27017,cluster0-shard-00-01-lc4j1.mongodb.net:27017,cluster0-shard-00-02-lc4j1.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority'
+    const url = 'mongodb://alero:QOVaNdVMYl2kVLE5@cluster0-shard-00-00-lc4j1.mongodb.net:27017,cluster0-shard-00-01-lc4j1.mongodb.net:27017,cluster0-shard-00-02-lc4j1.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority'
     const client = await mongodb.MongoClient.connect(url, {
         useNewUrlParser: true
     });

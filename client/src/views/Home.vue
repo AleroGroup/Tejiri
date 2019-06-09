@@ -22,26 +22,29 @@
     </section>
 
     <div class="album">
-    <h2 class="title">This is where the images will go</h2>
-    <div class="images">
-
-
-      
+      <Album />
     </div>
+
+    <div class="more">
+      <div class="box">
+        <h2 class="title is-5"> See more of our work</h2>
+        <router-link to="/work"><div class="button is-primary"> <h3 class="subtitle is-6" style="font-weight: 600;"> Here</h3></div></router-link> 
+      </div>
     </div>
 </div>
 </template>
 
 <script>
 import bulmaCarousel from '../../node_modules/bulma-carousel/dist/js/bulma-carousel';
+import Album from '../components/album';
+
  export default {
     name: "home",
     components: {
-   
+      Album,
     }
+    
   }
-
-
 
 //first set for the burger and click
 function ready(handler) {
@@ -166,6 +169,7 @@ ready(function () {
     loop: true
   });
  });
+ 
 </script>
 
 <style scoped>
@@ -200,5 +204,25 @@ ready(function () {
   display: flex;
   position: relative;
   top: 60px;
+}
+
+.more {
+ display: flex;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  top: 15px;
+ padding: 85px;
+}
+
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 340px;
 }
 </style>

@@ -21,8 +21,11 @@ $orange-light: #ffcebf;
 $family-sans-serif: $font-Monserrat;
 $grey-dark: $gray;
 $grey-light: $orange-light;
-$primary: $gray;
+$primary: $orange-light;
 $link: $orange-dark;
+
+/* navbar */
+$navbar-item-active-color: $orange-dark;
 
 /* Update some of Bulma's component variables */
 $control-border-width: 2px;
