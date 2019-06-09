@@ -15,6 +15,21 @@ export default new Router({
       path: "/about",
       name: "about",
       component: () => import("./views/About.vue")
+    },
+    {
+      path: "/work",
+      name: "work",
+      component: () => import("./views/Work.vue")
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: () => import("./views/Contact.vue")
+    },
+    {
+      path: "/services",
+      name: "services",
+      component: () => import("./views/Services.vue")
     }
   ],
   mode: "history",

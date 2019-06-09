@@ -19,10 +19,10 @@ $orange-light: #ffcebf;
 
 /* Update Bulma's global variables */
 $family-sans-serif: $font-Monserrat;
-$grey-dark: $orange-dark;
+$grey-dark: $gray;
 $grey-light: $orange-light;
 $primary: $gray;
-$link: #808080;
+$link: $orange-dark;
 
 /* Update some of Bulma's component variables */
 $control-border-width: 2px;

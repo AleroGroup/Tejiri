@@ -22,14 +22,18 @@
     </section>
 
     <div class="album">
-      this is where the album will be
+    <h2 class="title">This is where the images will go</h2>
+    <div class="images">
+
+
+      
+    </div>
     </div>
 </div>
 </template>
 
 <script>
 import bulmaCarousel from '../../node_modules/bulma-carousel/dist/js/bulma-carousel';
- 
  export default {
     name: "home",
     components: {
@@ -187,10 +191,14 @@ ready(function () {
 }
 
 
-.button, .title{
+.button, h1{
   color: white;
   background: none;
 }
 
-
+.album {
+  display: flex;
+  position: relative;
+  top: 60px;
+}
 </style>
