@@ -22,6 +22,16 @@ export default new Router({
       component: () => import("./views/Work.vue")
     },
     {
+      path: "/work/wedding",
+      name: "wedding",
+      component: () => import("./views/Wedding.vue")
+    },
+    {
+      path: "/work/other",
+      name: "others",
+      component: () => import("./views/Other.vue")
+    },
+    {
       path: "/contact",
       name: "contact",
       component: () => import("./views/Contact.vue")

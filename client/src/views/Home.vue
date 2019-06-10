@@ -28,13 +28,16 @@
     <div class="more">
       <div class="box">
         <h2 class="title is-5"> See more of our work</h2>
-        <router-link to="/work"><div class="button is-primary"> <h3 class="subtitle is-6" style="font-weight: 600;"> Here</h3></div></router-link> 
+        <router-link to="/work"><div class="button is-primary" style="width: 220px"> <h3 class="subtitle is-6" style="font-weight: 600;"> Here</h3></div></router-link> 
       </div>
     </div>
+
+<Footer/>
 </div>
 </template>
 
 <script>
+import Footer from '../components/footer';
 import bulmaCarousel from '../../node_modules/bulma-carousel/dist/js/bulma-carousel';
 import Album from '../components/album';
 
@@ -42,6 +45,7 @@ import Album from '../components/album';
     name: "home",
     components: {
       Album,
+      Footer
     }
     
   }

@@ -1,10 +1,10 @@
 <template>
-  <div class="about">
+<div class="about">
       <div class="imageContainer" >
         <img src="https://res.cloudinary.com/drsayrtmp/image/upload/c_crop,h_3796/v1559948929/tejiri/backlit-dark-evening-1136575.jpg" alt="">   
       </div>
 
-  <article class="media column is-centered is-three-quarters-mobile is-two-thirds-tablet is-8-desktop is-8-widescreen is-8-fullhd">
+    <article class="media column is-centered is-three-quarters-mobile is-two-thirds-tablet is-8-desktop is-8-widescreen is-8-fullhd">
       <div class="about-us">
            <h1 class="title is-2 is-primary" >About Us</h1>
            <p>
@@ -18,15 +18,15 @@
                  Aenean mi mauris, efficitur vel odio sit amet, aliquet maximus velit. Ut accumsan quam et augue convallis vehicula.
           </p>
     </div>
-<div class="team">
-<h1 class="title is-2 is-primary">Team</h1>     
-<!-- First profile -->
-<article class="media left-align-media">
-   <div class="media-left img">
-      <img class="profile-image" src="https://raw.githubusercontent.com/alerlo/Tejiri/master/src/img/AfricanFamily.jpg"/>
-   </div>
-  <div class="media-content">
-    <div class="content">
+  <div class="team">
+  <h1 class="title is-2 is-primary">Team</h1>     
+  <!-- First profile -->
+    <article class="media left-align-media">
+      <div class="media-left img">
+         <img class="profile-image" src="https://raw.githubusercontent.com/alerlo/Tejiri/master/src/img/AfricanFamily.jpg"/>
+      </div>
+    <div class="media-content">
+       <div class="content">
                 <h3 style="subtitle">Sammy Watima</h3>
                   <div class="detail">
                      <p>Date Of Birth : 22 August 1990 </p>
@@ -43,11 +43,11 @@
                 
                 We are looking forward to serving you and connecting your mission with the rest of the world through pictures.
            </p>
-    </div>
-  </div>
-</article>
+         </div>
+        </div>
+      </article>
 
-</div>
+    </div>
 
          <div class="photos">
            <h1 class="title is-2 is-primary">Photos</h1>
@@ -79,7 +79,7 @@
 <style scoped>
 @import "../assets/scss/bulma.scss";
 
-.abous, .photos, .team, .videos {
+.about-us, .photos, .team, .videos {
   margin-top: 3.4rem;
 }
 

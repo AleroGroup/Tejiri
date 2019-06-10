@@ -2,38 +2,39 @@
  <div class="work">
 
 <div class="menu">
-    <div class="menu-item active item-1" >
-        <router-link to="/work"><button class="subtitles">landscape</button></router-link>
+    <div class="menu-item  item-1" >
+        <router-link to="/work"><button class="subtitles">landscape</button></router-link> 
     </div>
 
-     <div class="menu-item item-2" >
-         <router-link to="/work/wedding"><button class="subtitles">Weddings</button></router-link>
+     <div class="menu-item active item-2" >
+        <router-link to="/work/wedding"><button class="subtitles" >Weddings</button></router-link> 
     </div>
 
      <div class="menu-item item-4">
-        <router-link to="/work/other"><button class="subtitles">Other</button></router-link>
+       <router-link to="/work/other"><button class="subtitles">Other</button></router-link> 
     </div>
 </div>
 
 
     <div class="album">
-      <Landscape />
+      <Wedding />
     </div>
 
     <div class="_footer"> 
-    <Footer />
+        <Footer />
     </div>  
+
  </div>
 </template>
 
 <script>
-import Landscape from '../components/album/landscape';
+import Wedding from '../components/album/wedding';
 import Footer from '../components/footer';
 
 export default {
-    name: 'work',
+    name: 'wedding',
     components:{
-        Landscape,
+        Wedding,
         Footer
     }
 }

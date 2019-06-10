@@ -2,7 +2,7 @@
  <div class="work">
 
 <div class="menu">
-    <div class="menu-item active item-1" >
+    <div class="menu-item item-1" >
         <router-link to="/work"><button class="subtitles">landscape</button></router-link>
     </div>
 
@@ -10,31 +10,31 @@
          <router-link to="/work/wedding"><button class="subtitles">Weddings</button></router-link>
     </div>
 
-     <div class="menu-item item-4">
+     <div class="menu-item active item-4">
         <router-link to="/work/other"><button class="subtitles">Other</button></router-link>
     </div>
 </div>
 
 
     <div class="album">
-      <Landscape />
+      <Other />
     </div>
 
     <div class="_footer"> 
-    <Footer />
+      <Footer />
     </div>  
  </div>
 </template>
 
 <script>
-import Landscape from '../components/album/landscape';
+import Other from '../components/album/other';
 import Footer from '../components/footer';
 
 export default {
-    name: 'work',
+    name: 'other',
     components:{
-        Landscape,
-        Footer
+       Other,
+       Footer
     }
 }
 </script>
