@@ -1,7 +1,7 @@
 // eslint-disable-next-line prettier/prettier
 import axios from 'axios';
 
-const url = "http://localhost:5000/api/images/";
+const url = "/api/images/";
 
 class GetService {
   //Getting the images

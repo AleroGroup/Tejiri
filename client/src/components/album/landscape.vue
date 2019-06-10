@@ -54,6 +54,7 @@ export default {
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1560126872/tejiri/landscape/aquatic-deep-diver-903974.jpg',
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1560126869/tejiri/landscape/beach-dawn-iphone-wallpaper-189349.jpg',
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1560126858/tejiri/landscape/animals-corals-deep-68767.jpg',
+                '',
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1560126855/tejiri/landscape/animal-aquatic-corals-847393.jpg',
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1559601707/tejiri/landscape/cape-town-dawn-grass-1631066.jpg',
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1559601688/tejiri/landscape/calm-waters-clouds-dawn-1396740.jpg',
@@ -61,7 +62,6 @@ export default {
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1560126899/tejiri/landscape/blue-ocean-h2o-nature-1802268.jpg',
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1560126922/tejiri/landscape/beautiful-cliff-clouds-1659438.jpg.jpg',
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1560126884/tejiri/landscape/clouds-country-daylight-371633.jpg',
-                'https://res.cloudinary.com/drsayrtmp/image/upload/v1560126883/tejiri/landscape/cold-conifer-dawn-917494.jpg',
     
             ],
             index: '',

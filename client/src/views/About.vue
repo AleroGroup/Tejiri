@@ -62,14 +62,20 @@
          </div>
   
   </article>
+
+  <div class="_footer"> 
+    <Footer />
+  </div> 
   </div>
 </template>
 
   
 <script>
+import Footer from '../components/footer';
   export default {
     name: "about",
     components: {
+      Footer,
   
     }
   }
@@ -109,6 +115,10 @@ p{
   height: auto;
   margin-right: 40px;
   border-radius: 15px;
+}
+
+._footer{
+  margin-top: 230px;  
 }
 
  /* ----------- Resposive ----------- */
