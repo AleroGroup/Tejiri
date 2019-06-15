@@ -9,7 +9,7 @@
     @click="index = imageIndex"
     :style="{ backgroundImage: 'url(' + image + ')', width: '350px', height: '300px' }"
   ></div>
-
+<img  v-bind:src="images.imgurl">
 </div>
 </template>
 
@@ -36,6 +36,7 @@ export default {
                 'https://res.cloudinary.com/drsayrtmp/image/upload/v1559057094/tejiri/adult-art-body-art-1801263.jpg',
             ],
             index: '',
+            imgurl: '',
             error: ''
         }
     },
